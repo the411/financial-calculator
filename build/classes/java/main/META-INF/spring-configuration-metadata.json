@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.example.var.configuration.YAMLConfig",
+      "sourceType": "com.example.var.configuration.YAMLConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "confidence",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.var.configuration.YAMLConfig"
+    },
+    {
+      "name": "provider",
+      "type": "java.lang.String",
+      "sourceType": "com.example.var.configuration.YAMLConfig"
+    }
+  ],
+  "hints": []
+}
