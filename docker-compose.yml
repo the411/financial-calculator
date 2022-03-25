@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  app-financial-calculator:
+    image: 'financial-calculator'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9999:8080
+    container_name: financial-calculator
